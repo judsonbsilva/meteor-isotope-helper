@@ -1,0 +1,10 @@
+<template name="test0">
+	{{#gridIsotope id='block-grid' itemSelector='.block' }}
+		{{#each blocks}}
+			<div class="block">
+				<span class="number">{{number}}</span>
+				<span class="name">{{name}}</span>
+			</div>
+		{{/each}}
+	{{/gridIsotope}}
+</template>
